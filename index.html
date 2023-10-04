@@ -16,5 +16,19 @@
         <a href="#gallery">Gallery</a>
         <a class="icon" onclick="burgerMenu()"><i class="fa-solid fa-bars"></i></a>
     </div>
+    <div>
+        <h1>Lorem Ipsum</h1>
+        <p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsum lorem ipsum lorem ipsumlorem ipsum</p>
+    </div>
+    <script>
+        function burgerMenu() {
+            let burger = document.getElementById("nav-bar");
+            if (burger.className === "nav") {
+            burger.className += " responsive";
+            } else {
+            burger.className = "nav";
+            }
+        }
+        </script>
 </body>
 </html>
