@@ -1,0 +1,29 @@
+body{
+    margin: 0px;
+    background-color: black;
+}
+.nav{
+    overflow: hidden;
+    background-color: aliceblue;
+}
+a{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+a:hover{
+    background-color: black;
+    color: aliceblue;
+    font-size: 18px;
+}
+.active{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 17px;
+    font-weight: 500;
+    color: black;
+    padding: 20px;
+    background-color:aqua;
+}
